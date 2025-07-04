@@ -295,6 +295,11 @@ app.get("/", (req, res) => {
     res.send("Wii Room Reservation Service is running!");
 });
 
+// A simple GET endpoint for testing
+app.get("/wiitv", (req, res) => {
+    res.send("Well you tried to acess to a Moved Repertory.....https://github.com/Tanjirokamado12/Viitube");
+});
+
 // Start the server
 const port = process.env.PORT || 80;
 app.listen(port, () => {
