@@ -4,7 +4,7 @@ const { format, addDays } = require('date-fns');
 
 // Configuration
 const startYear = 2025;
-const endYear = 2026;
+const endYear = 2027;
 const movieTitle = "Flight of a Shiba";
 const movieId = 1;
 const outputDir = path.join(__dirname, '../../v770/url1/cal/');
